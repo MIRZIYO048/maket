@@ -1,0 +1,546 @@
+@media (max-width: 1200px) and (min-width: 1032px){
+    header{
+        height: 596px;
+    }
+    #register{
+        left: 630px;
+    }
+    #nav-list{
+        left: 630px;
+    }
+}
+@media (max-width: 1031px) and (min-width: 963px){
+    #register{
+        left: 560px;
+    }
+    header{
+        height: 595px;
+    }
+    .register{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 962px) and (min-width: 943px){
+    .register{
+        margin-left: 30px;
+    }
+    #register{
+        top: 195px;
+        left: 540px;
+    }
+    header{
+        height: 630px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+} 
+@media (max-width: 942px) and (min-width: 903px){
+    .register{
+        margin-left: 30px;
+    }
+    #header-text{
+        width: 400px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 630px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+   #header-title{
+       font-size: 70px;
+   } 
+   #register{
+       top: 195px;
+       left: 500px;
+   }
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+   }
+}
+@media (max-width: 902px) and (min-width: 890px) {
+    .register{
+        margin-left: 30px;
+    }
+    #header-text{
+        width: 400px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 630px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+   #header-title{
+       font-size: 70px;
+   } 
+   #register{
+       top: 195px;
+       left: 450px;
+   }
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+   }
+}
+@media (max-width: 889px) and (min-width: 804px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+    }
+    #h2, #link, #h21{
+        text-align: center;
+        margin-right: 240px;
+    }
+    .register{
+        margin-left: 30px;
+    }
+    #header-text{
+        width: 400px;
+    }
+    #d-flex a{
+        font-size: 15px;
+        color: white;
+    }
+    #sec-link{
+        padding: 15px 50px 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background: #c62314;
+        font-size: 15px;
+        color: #fff;
+        margin: 25px 0 30px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 630px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+   #header-title{
+       font-size: 70px;
+   } 
+   #register{
+       top: 195px;
+       left: 450px;
+       width: 350px;
+   }
+   #check{
+       margin-right: 15px;
+   }
+   #reg-link{
+    background: #c62314;
+    margin: 0 25px;
+    padding: 16px 110px 16px 127px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+   #input{
+        width: 300px;
+   }
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+   }
+   #d-flex{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+}
+@media (max-width: 803px) and (min-width: 755px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+    }
+    #register{
+        top: 195px;
+        left: 450px;
+        width: 300px;
+    }
+    #check{
+        margin-right: 10px;
+    }
+    #reg-link{
+     background: #c62314;
+     margin: 0 25px;
+     padding: 13px 90px 13px 100px;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-weight: 400;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 5px;
+ }
+    #input{
+         width: 250px;
+    }
+    #h2, #link, #h21{
+        text-align: center;
+        margin-right: 240px;
+    }
+    #header-text{
+        width: 400px;
+    }
+    #d-flex a{
+        font-size: 15px;
+        color: white;
+    }
+    #sec-link{
+        padding: 15px 50px 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background: #c62314;
+        font-size: 15px;
+        color: #fff;
+        margin: 25px 0 30px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 630px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+   #header-title{
+       font-size: 70px;
+   } 
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+   }
+   #d-flex{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+}
+@media (max-width: 754px) and (min-width: 715px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+    }
+    #header-title{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 90px;
+        margin-left: 135px;
+        color: #130e27;
+        margin-top: 20px;
+    }
+    #header-text{
+        margin-left: 135px;
+        margin-top: 50px;
+    }
+    #register{
+        top: 600px;
+        left: 400px;
+        width: 300px;
+        margin-top: -36px;
+    }
+    #check{
+        margin-right: 10px;
+    }
+    #reg-link{
+     background: #c62314;
+     margin: 0 25px;
+     padding: 13px 90px 13px 100px;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-weight: 400;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 5px;
+     text-align: center;
+ }
+    #input{
+         width: 250px;
+    }
+    #h2, #link, #h21{
+        text-align: center;
+        margin-right: 240px;
+    }
+    #d-flex a{
+        font-size: 15px;
+        color: white;
+    }
+    #sec-link{
+        padding: 15px 50px 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background: #c62314;
+        font-size: 10px;
+        color: #fff;
+        margin: 25px 0 30px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 1000px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+   }
+   #d-flex{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .register{
+       display: flex;
+       flex-direction: column;
+   }
+}
+@media (max-width: 714px) and (min-width: 577px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    #header-title{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+        margin-left: 80px;
+        color: #130e27;
+        margin-top: 20px;
+    }
+
+    #header-text{
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    #register{
+        top: 600px;
+        left: 170px;
+        width: 300px;
+        margin-top: -36px;
+    }
+    #check{
+        margin-right: 10px;
+    }
+    #reg-link{
+     background: #c62314;
+     margin: 0 25px;
+     padding: 13px 90px 13px 100px;
+     color: #fff;
+     border: none;
+     outline: none;
+     font-weight: 400;
+     font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 5px;
+     text-align: center;
+ }
+    #input{
+         width: 250px;
+    }
+    #h2, #link, #h21{
+        text-align: center;
+        margin-right: 240px;
+    }
+    #d-flex a{
+        font-size: 15px;
+        color: white;
+    }
+    #sec-link{
+        padding: 15px 50px 15px 50px;
+        border: none;
+        border-radius: 5px;
+        background: #c62314;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+        margin: 25px 0 30px;
+    }
+    nav{
+        margin-top: -30px;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        height: 1100px;
+    }
+    #nav-list{
+        margin-top: 0;
+    }
+    #main-logo{
+        margin-bottom: -70px;
+    }
+   #images{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+   }
+   #img{
+       margin-top: 30px;
+   }
+   #d-flex{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   .register{
+       display: flex;
+       flex-direction: column;
+   }
+   .contanier{
+        display: flex;
+        flex-direction: column;
+   }
+   #right2{
+        margin-top: -60px;
+   }
+   #left2{
+       margin-top: -70px;
+   }
+}
+@media (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .contanier{
+        display: flex;
+        flex-direction: column;
+   }
+   #right2{
+        margin-top: -60px;
+   }
+   #left2{
+       margin-top: -70px;
+   }
+    #h23, #link, #h21{
+        text-align: center;
+        margin-left: -200px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    #container{
+        width: auto;
+    }
+    #d-flex{
+        display: flex;
+        margin-left: 250px;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #logo{
+        margin: 20px 0 -50px;
+    }
+    ul li{
+        padding-bottom: 10px;
+    }
+    #sec-text{
+        width: 500px;
+    }
+    header{
+        height: 1100px;
+    }
+    body{
+        width: 790px;
+    }
+    #header-title{
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        text-align: center;
+        color: #130e27;
+        margin-top: 20px;
+    }
+    #header-text{
+        text-align: center;
+        margin: 20px auto;
+    }
+    #register{
+        top: 600px;
+        left: 190px;
+        margin-top: -36px;
+    }
+    #images{
+        display: flex;
+        flex-direction: column;
+        margin-left: -200px;
+        text-align: justify;
+    }
+    #main-logo{
+        margin-left: 100px;
+    }
+    #sec-content{
+        display: flex;
+        flex-direction: column;
+    }
+}

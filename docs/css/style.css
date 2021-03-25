@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: url('../Img/BG.png') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-list{
+    margin-top: 55px;
+    display: flex;
+}
+#logo{
+    margin-top: 45px;
+    font-size: 59px;
+    font-weight: 700;
+}
+#container{
+    max-width: 1010px;
+    width: 100%;
+    margin: 0 auto;
+}
+#nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 30px;
+}
+#nav-link:hover{
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px 10px;
+    background: #130e27;
+    color: #ffffff;
+}
+
+#header-title{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: #130e27;
+    margin-top: 20px;
+}
+#header-title span{
+    color: #fff;
+}
+#first{
+    margin-top: 140px;
+}
+#header-text{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 475px;
+}
+#register{
+    width: 400px;
+    height: 520px;
+    border-radius: 5px;
+    box-shadow: 0 0 24px 0 #979595;
+    background: #fff;
+    border: none;
+    top: 160px;
+    left: 700px;
+    position: absolute;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+#input{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 350px;
+    height: 50px;
+    background: #eee;
+    padding-left: 40px;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+#input::placeholder{
+    /* padding-left: 20px; */
+    color: #b5b5b5;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#reg-text{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #130e27;
+    text-transform: uppercase;
+    margin: 33px 0 34px;
+}
+#checkbox{
+    margin: 28px 0 24px;
+    display: flex;
+    align-items: center;
+}
+#check{
+    margin: 0 25px;
+}
+label{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #130e27;    
+}
+#reg-link{
+    background: #c62314;
+    margin: 0 25px;
+    padding: 20px 133px 20px 154px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+/*header tugadi!!!*/
+
+
+/* uff , main boshlandi*/
+#main-logo{
+    text-transform: uppercase;
+    color: #c62314;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 38px;
+
+}
+#main-logo span{
+    color: #130e27;
+}
+#images{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    align-items: center;
+}
+#img{
+    color: #130e27;
+    width: 150px;
+}
+#img-text{
+    margin-top: 48px;
+    font-size: 14px;      
+    text-align: center;
+}
+
+#section{
+    margin-top: 70px;
+    background: #130e27;
+}
+#sec-content{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+#sec-text{
+    width: 640px;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#sec-link{
+    padding: 20px 65px 20px 75px;
+    border: none;
+    border-radius: 5px;
+    background: #c62314;
+    font-size: 22px;
+    color: #fff;
+    margin: 25px 0 30px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #130e27;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+}
+#section-2 p{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#section-2{
+    background: #efefef;
+}
+#d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #c62314;
+    margin-top: 44px;
+    margin-bottom: 35px;
+}
+#section-2 li{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #130e27;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 14px;
+}
+#card1, #card2, #card3{
+    margin-top: 60px;
+    width: 314px;
+    height: 420px;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#card1 a, #card2 a, #card3 a{
+    padding: 20px 80px 16px 85px;
+    border: none;
+    outline: none;
+    background: #130e27;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 40px;
+    display: inline-block;
+}
+#card1 a:hover, #card2 a:hover, #card3 a:hover{
+    background: #c62314;
+}
+#card2{
+    position: relative;
+}
+#line{
+    background: #c62314;
+    width: 88px;
+    height: 85px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: -14px;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: -40px;
+}
+.div{
+    display: flex;
+}
+.div p{
+    margin-right: 110px;
+    /* margin-bottom: 40px; */
+}
+#line span{
+    display: flex;
+    transform: rotate(-45deg);
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 9px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#top1{
+    display: flex;
+}
+#top .p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #130e27;
+    margin-top: -30px;
+}
+.p1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #130e27;
+    margin-top: -30px;
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+#left{
+    margin-top: 70px;
+}
+#top1{
+    margin-top: 60px;
+}
+#top p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #130e27;
+    width: 360px;
+}
+#top img{
+    margin-left: -15px;
+}
+#bottom1{
+    display: flex;
+    position: relative;
+}
+#bottom{
+    margin-top: 70px;
+    margin-left: -25px;
+    background: #efefef;
+    width: 435px;
+    border-radius: 5px;
+}
+
+#bottom1 p{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 340px;
+    color: #c62314;
+}
+#bottom1 img{
+    position: relative;
+    left: 65px;
+}
+#h23{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #130e27;
+    text-transform: uppercase;
+}
+
+#h21{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #c62314;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-bottom: 65px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+#left1{
+    margin-bottom: 50px;
+}
+#link{
+    font-size: 20px;
+    text-align: center;
+}
+#link a{
+    color: #130e27;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #130e27;
+}
+#section-3{
+    margin-bottom: 120px;
+}
+#right{
+    margin-top: 70px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 */
+/* main tugadi! */
+
+/* uff footer boshlandi*/
+footer{
+    background: #130e27;
+}
+.contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left2 p{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font: 20px;
+    padding: 80px 0 90px;
+}
+#left2 p span{
+    color: #c62314;
+}
